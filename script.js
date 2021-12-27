@@ -23,7 +23,7 @@ function displayUser(start)
 {
       let res=response;  
       
-    for(let i=start;i<(parseInt(start)+parseInt(noUser)),i<res.length  ;i++)
+    for(let i=start;i<(parseInt(start)+parseInt(noUser))  ;i++)
     {
         
             //-----creating ROW    
