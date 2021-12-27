@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+       
+        <div>
+            <h1>Admin UI</h1>
+        <div>
+            
+            <!-- form for no. of users in single page -->
+            <form action="">
+                No. of rows
+            <input class="radio_button" type="radio" name="pages" value="10" checked>10
+            
+            <input class="radio_button" type="radio" name="pages" value="20">20
+            
+            <input class="radio_button" type="radio" name="pages" value="30">30
+            </form>
+        </div>
+        <!-- Search bar -->
+        <input id="search-bar" type="text" placeholder="Search from any property" onkeyup="sortRows()">
+        
+        <!-- table for User details -->
+        <table>
+
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td><b>Name</b></td>
+                <td><b>Email</b></td>
+                <td><b>Role</b></td>
+                <td><b>Action</b></td>
+            </tr>
+            
+        </table>
+        
+        <!-- //form for editing user details -->
+        <div id="edit-form">
+            <h2>Edit User Details</h2>
+            <form  >
+                <label >Name:-
+                <input type="text"></label>
+                <label >Email:-
+                <input type="text"></label>
+                <label >Role:-
+                <input type="text"></label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+         
+        <!-- no of Pages -->
+        <div id="totalPages">
+ 
+            <p id="delete">delete selected</p>
+ 
+                <i class="fas fa-chevron-left" id="left-arrow"></i>
+        <div id="pages">
+
+        </div>
+        <i class="fas fa-angle-right" id="right-arrow"></i>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+    background-color: linen;
+}
+
+/* -----Styling table */
+table
+{
+    display: block;
+
+}
+
+tbody
+{
+    display: block;
+    display: block;
+
+    text-align: start;
+    width: 70vw;
+    margin-left: 14rem;
+}
+
+#search-bar
+{
+    width: 50vw;
+    padding: 0.25rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+tr:nth-child(even) {
+    background-color: lightpink;
+}
+tr:hover {
+    background-color: gray;
+}
+
+td
+{
+    width:20vw;
+}
+
+th, td 
+{
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem;
+}
+#totalPages
+{
+
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pages
+{
+    display: flex;
+}
+.pages-style
+{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    background: palevioletred;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+#delete
+{
+    margin-left: 14rem;
+    padding: 1rem;
+    background: indianred;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+
+.pointer
+{
+    cursor: pointer;
+    color: blue;
+}
+#edit-form
+{
+    display: none;
+    background: papayawhip;
+    flex-direction: column;
+    width: 29vw;
+    align-items: center;
+    position: absolute;
+    padding: 1rem;
+    justify-content: center;
+    top: 30vh;
+    left: 30vw;
+}
+#edit-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#edit-form form input{
+    
+        padding: 0.4rem;
+        font-size: 0.75rem;
+        margin-top: 0.3rem;
+        color: orangered;
+        margin-bottom: 0.3rem;
+}
+#edit-form form button{
+    
+    padding: 0.3rem;
+    width: 6vw;
+}
